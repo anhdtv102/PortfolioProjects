@@ -1,3 +1,6 @@
+-- Used skills: CTE, Windows functions, Aggregate functions, Creating views, Converting data types
+-- Created in mySQL
+
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM portfolioproject.coviddeaths
 order by 1, 2;
